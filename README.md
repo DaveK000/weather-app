@@ -3,7 +3,7 @@
 This project is a learning project to explore and getting better at developing with Java.
 It is an API to get weather for a selected location.
 The API will check if the location is already cached in Redis and if not, it will fetch the data 
-from [Visualcrossing API](https://www.visualcrossing.com) and then it will cache the results for 2 min.
+from [Visualcrossing API](https://www.visualcrossing.com) and then it will cache the results for 1 min.
 
 ## Getting started
 
