@@ -212,7 +212,7 @@ It allows you to get weather data for the specified date interval using the loca
 
 #### Endopoint:
 
-http://localhost:8080/api/weather/weatherDataSimple
+http://localhost:8080/api/weather/weatherData
 
 #### Request Body:
 ````json
