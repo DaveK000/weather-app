@@ -29,14 +29,14 @@ public class WeatherService {
         this.mapper = mapper;
     }
 
-    public WeatherData getWeatherData(String params, String location){
-        String weatherFromRedis = redisManager.getValue(location);
+    public WeatherData getWeatherData(String params){
+        String weatherFromRedis = redisManager.getValue(params);
 
         if (weatherFromRedis == null){
             WeatherData weatherData = restApiClient.get(
                     apiUrl + params + "?key=" + apiKey,
                     WeatherData.class);
-            redisManager.setValue(location, weatherData);
+            redisManager.setValue(params, weatherData);
             return weatherData;
         }
 
