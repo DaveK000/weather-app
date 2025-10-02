@@ -5,6 +5,8 @@ It is an API to get weather for a selected location.
 The API will check if the location is already cached in Redis and if not, it will fetch the data 
 from [Visualcrossing API](https://www.visualcrossing.com) and then it will cache the results for 1 min.
 
+[Project page on Roadmap.sh](https://roadmap.sh/projects/weather-api-wrapper-service)
+
 ## Getting started
 
 This project can be launched using Docker Compose.
