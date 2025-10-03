@@ -6,7 +6,7 @@ services:
     ports:
       - '8080:8080'
     environment:
-      - 3RD_PARTY_API_KEY=FBNDSCDTK7D768WNDYEPSGVNR
+      - 3RD_PARTY_API_KEY=XXXXXXX
       - REDIS_CONN_HOST=redis
       - REDIS_CONN_PORT=6379
     networks:
