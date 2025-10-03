@@ -10,6 +10,7 @@ from [Visualcrossing API](https://www.visualcrossing.com) and then it will cache
 ## Getting started
 
 This project can be launched using Docker Compose.
+Remember that in order to use the weather 3rd party API you need a valid API key.
 
 ### Step 1: Clone the repository
 
